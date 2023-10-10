@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+img{
+    height: 500px;
+
+}
+
+
+form{
+    background-color: #000000;
+    height: 500px;
+    padding-right: 70px;
+    
+}
+
+#nome {
+    margin-top: 40px;
+}
+
+label, select, input{
+    margin-left: 24px;
+}
+
+input, textarea{
+    background-color: #383838;
+    border: 0;
+    padding: 6px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+
+#comentarios {
+    background-color: #383838;
+    border: 0;
+    padding: 6px;
+    border-radius: 8px;
+    width: 400px;
+    margin-top: 5px;
+    margin-left: 24px;
+    
+    
+}
+
+
+#button{
+    color: white;
+    background-color: rgb(43, 43, 248);
+
+    transition: 0.3s ease;
+    
+}
+
+#button:hover{
+    background-color: rgb(5, 5, 216);
+    transform: scale(1.1);
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.radio{
+    display: flex;
+    width: 30px; /* Largura desejada */
+    height: 30px; /* Altura desejada */
+}
+
